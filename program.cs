@@ -1,3 +1,9 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
 // Print the user's backstory
 Console.WriteLine("Greetings, welcome to Aetherium, a robust and heavily industrialized Martian prefixure.");
 Console.WriteLine("You are a talented and well-decorated roboticist. It's the year 2060, and humanity has successfully colonized Mars thanks to advancements in galactic travel and technological innovation.");
@@ -63,4 +69,7 @@ else if (roomChoice == "Central Control Center")
 else
 {
     Console.WriteLine("Invalid choice. Please select 'view your dashboard' or 'Central Control Center'.");
+}
+
+    }
 }
